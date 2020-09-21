@@ -4,7 +4,7 @@ import * as express from "express";
 import * as bodyParser from "body-parser";
 import { Request, Response } from "express";
 import { Routes } from "./routes";
-import { Users } from "./entity/Users";
+import { Users } from "./entities/Users";
 
 createConnection().then(async connection => {
 	// create express app

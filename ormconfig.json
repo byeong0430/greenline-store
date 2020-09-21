@@ -8,7 +8,7 @@
     "password": "Rlaqudrb0430!",
     "database": "myhomi",
     "schema": "",
-    "synchronize": false,
-    "entities": ["entities/*.js"]
+    "synchronize": true,
+    "entities": ["src/entities/*.ts"]
   }
 ]
